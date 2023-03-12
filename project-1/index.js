@@ -1,1 +1,5 @@
-ReactDOM.render(<h1>Hello, everyone!</h1>, document.getElementById("root"));
+const Temp = () => {
+  return <h1>test</h1>;
+};
+
+ReactDOM.render(<Temp />, document.getElementById("root"));
