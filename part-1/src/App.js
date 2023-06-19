@@ -3,7 +3,7 @@ import "./App.css"
 function Header() {
   return (
     <header>
-      <nav>
+      <nav className="nav">
         <img src="./logo192.png" width="40px" alt="logo" />
         <ul className="nav-items">
           <li>Pricing</li>
