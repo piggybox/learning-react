@@ -4,7 +4,7 @@ function Header() {
   return (
     <header>
       <nav className="nav">
-        <img src="./logo192.png" width="40px" alt="logo" />
+        <img src="./logo192.png" className="nav-logo" alt="logo" />
         <ul className="nav-items">
           <li>Pricing</li>
           <li>About</li>
@@ -17,15 +17,14 @@ function Header() {
 
 function Footer() {
   return (
-    <footer></footer>
+    <footer className="footer"> 2021. All rights reserved</footer>
   )
 }
 
 function Body() {
   return (
     <body>
-      <h1>My awesome website in React</h1>
-      <h3>Reasons I love React</h3>
+      <h1>Reasons I'm excited to learn React</h1>
       <ul>
         <li>It's composable</li>
         <li>It's declarative</li>
