@@ -1,24 +1,8 @@
 import "./App.css"
-
-function Header() {
-  return (
-    <header>
-      <nav className="nav">
-        <img src="./logo192.png" className="nav-logo" alt="logo" />
-        <ul className="nav-items">
-          <li>Pricing</li>
-          <li>About</li>
-          <li>Contact</li> 
-        </ul>
-      </nav>
-    </header>
-  )
-}
+import Header from "./Components/Header"
 
 function Footer() {
-  return (
-    <footer className="footer"> 2021. All rights reserved</footer>
-  )
+  return <footer className="footer"> 2021. All rights reserved</footer>
 }
 
 function Body() {
