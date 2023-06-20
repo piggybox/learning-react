@@ -1,15 +1,11 @@
-
 import reactLogo from "../images/logo192.png"
 function Header() {
   return (
     <header>
       <nav className="nav">
         <img src={reactLogo} className="nav-logo" alt="logo" />
-        <ul className="nav-items">
-          <li>Pricing</li>
-          <li>About</li>
-          <li>Contact</li>
-        </ul>
+        <h3>React Facts</h3>
+        <h4>React Course - Project 1</h4>
       </nav>
     </header>
   )
