@@ -1,6 +1,6 @@
 "use client"
 
-import { useState } from "react"
+import { useEffect, useState } from "react"
 
 export default function Page() {
   const [advice, setAdvice] = useState("")
@@ -13,6 +13,10 @@ export default function Page() {
     setAdvice(data.slip.advice)
     setCount((c) => c + 1)
   }
+
+  useEffect(function () {
+    getAdvice()
+  }, [])
 
   return (
     <div className="App">
